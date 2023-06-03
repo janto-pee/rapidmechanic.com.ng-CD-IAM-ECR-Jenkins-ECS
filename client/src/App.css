@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-customize {
+  background: url(/img/hero-img4.jpg) rgb(0, 74, 88);
+  background-size: cover;
+  background-blend-mode: overlay;
+
+}
+.background-customize2 {
+  background: url(/img/hero-img3.jpg) rgb(0, 74, 88);
+  background-size: cover;
+  background-blend-mode: overlay;
+
+}
+.background-customize3 {
+  background: url(/img/page-hero.jpg) rgb(0, 74, 88);
+  background-size: cover;
+  background-blend-mode: overlay;
+
+}
+.background-sidebar {
+  background: url(/img/sidebar.jpg) rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+div.service-icon:hover .serviceicon{
+  display: flex;
+}
+div.service-icon:hover p{
+  display: none;
+}
+/* .vf {
+  background: rgb(2, 84, 100);
+  width: calc(100% - 10rem);
+} */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
